@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true" crossContext="true">
+	
+	<Resource name="jdbc/wf" auth="Container" type="javax.sql.DataSource"
+		description="wf" username="root" password="luke606,123" maxActive="40"
+		maxWait="5000" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://192.168.1.10:3306/wf?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true" />
+
+</Context>

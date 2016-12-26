@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.devMode" value="false" />
+	<package name="user" namespace="/User" extends="struts-default">
+		<action name="Login" class="com.Struts2.login">
+			<result name="success">/login.jsp</result>
+		</action>
+		<action name="Welcome" class="com.Struts2.welcome" method="sss">
+			<result name="ok">/welcome.jsp</result>
+			<result name="no">www.sina.com</result>
+		</action>
+	</package>
+
+</struts> 
