@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>测试</title>
+<title>测试1</title>
 </head>
 <body>
 	<%
